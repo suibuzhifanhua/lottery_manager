@@ -85,9 +85,11 @@ lottery_manager/
 | v2.3.0 | 2026-04-20 | ✨ 新增大乐透支持，新增 LSTM/RNN 预测模型 |
 
 ## ⚠️ 免责声明
-
+第一次运行要加载模型分析数据，你也可以引入独显加速，反正我用9950x3d初始化大概3分钟左右。
 本项目仅供**学习研究**使用。彩票开奖为随机事件，任何预测模型都无法保证中奖。请理性购彩，量力而行。
 
-## 📄 License
+如果你用这个项目中了大奖，不妨请我喝杯咖啡。
 
-MIT License
+<img width="422" height="208" alt="image" src="https://github.com/user-attachments/assets/04957376-48d7-4a83-a1a4-01ed31dde224" />
+<img width="395" height="264" alt="image" src="https://github.com/user-attachments/assets/e41095e4-84ff-409a-be49-c053cb20a55b" />
+
