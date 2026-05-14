@@ -1,0 +1,29 @@
+# Build output
+dist/
+build/
+*.spec.cache
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Data files
+*.db
+*.sqlite
+
+# Models (large)
+models/*.pth
+models/*.pkl
+models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
