@@ -90,6 +90,7 @@ lottery_manager/
 
 如果你用这个项目中了大奖，不妨请我喝杯咖啡。
 
-<img width="1280" height="1742" alt="image" src="https://github.com/user-attachments/assets/3abfdc78-320c-403b-a4fa-14a4b56622b1" />
-<img width="1170" height="1755" alt="image" src="https://github.com/user-attachments/assets/463247de-34ac-454e-939d-b8396fe7acf9" />
+<img width="292" height="327" alt="image" src="https://github.com/user-attachments/assets/f29f5a9d-b93e-49b2-8ac3-5c2dfcf1224f" />
+
+<img width="300" height="322" alt="image" src="https://github.com/user-attachments/assets/9e1f04f8-9b7e-42c6-a3f5-7dc23933fdb0" />
 
