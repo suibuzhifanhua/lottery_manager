@@ -1,10 +1,13 @@
 """
 辅助脚本：优化 predict.py 中的随机森林函数
 """
+import os
 import re
 
+_HERE = os.path.dirname(os.path.abspath(__file__))
+
 # 读取原文件
-with open(r'C:\Users\Fisheep\Desktop\成品\cp\lottery_manager\predict.py', 'r', encoding='utf-8') as f:
+with open(os.path.join(_HERE, 'predict.py'), 'r', encoding='utf-8') as f:
     content = f.read()
 
 # 新的优化版 predict_random_forest 函数
@@ -138,7 +141,7 @@ if match:
     old_function = match.group(0)
     new_content = content.replace(old_function, new_function)
 
-    with open(r'C:\Users\Fisheep\Desktop\成品\cp\lottery_manager\predict.py', 'w', encoding='utf-8') as f:
+    with open(os.path.join(_HERE, 'predict.py'), 'w', encoding='utf-8') as f:
         f.write(new_content)
     print("[OK] Random forest optimization done!")
 else:

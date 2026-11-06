@@ -1,10 +1,13 @@
 """
 辅助脚本：优化 auto_predict.py 的并行预测
 """
+import os
 import re
 
+_HERE = os.path.dirname(os.path.abspath(__file__))
+
 # 读取原文件
-with open(r'C:\Users\Fisheep\Desktop\成品\cp\lottery_manager\auto_predict.py', 'r', encoding='utf-8') as f:
+with open(os.path.join(_HERE, 'auto_predict.py'), 'r', encoding='utf-8') as f:
     content = f.read()
 
 # 添加并行预测辅助函数
@@ -103,7 +106,7 @@ new_dlt_predict = '''    # ── 4. 大乐透预测（🚀 并行优化）─�
 content = content.replace(old_dlt_predict, new_dlt_predict)
 
 # 写回文件
-with open(r'C:\Users\Fisheep\Desktop\成品\cp\lottery_manager\auto_predict.py', 'w', encoding='utf-8') as f:
+with open(os.path.join(_HERE, 'auto_predict.py'), 'w', encoding='utf-8') as f:
     f.write(content)
 
 print("[OK] auto_predict.py parallel optimization done!")
